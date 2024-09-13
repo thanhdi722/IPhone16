@@ -1,0 +1,74 @@
+.OldForNew-Section1-bg2 {
+  display: none;
+}
+.OldForNew-Section1-bg1 {
+  display: block;
+}
+
+.OldForNew-Section1-ContainerBox {
+  width: 65vw;
+  margin: auto;
+  padding: 20px 0;
+}
+.OldForNew-Section1-image {
+  display: flex;
+  gap: 10px; /* Khoảng cách giữa các slider item */
+}
+
+.OldForNew-Section1-imageItem {
+  width: 100%; /* Đảm bảo hình ảnh chiếm hết chiều rộng của slider item */
+  height: auto;
+  border-radius: 10px;
+}
+.OldForNew-Section1-imageSliderBanner {
+  width: 30vw;
+}
+.OldForNew-Section1-banner {
+  width: 65vw;
+  display: flex;
+  margin: 10px auto;
+}
+.OldForNew-Section1-CardCombo {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto auto auto;
+}
+.CusTomSelectHeight {
+  height: 60px;
+}
+@media (max-width: 1000px) {
+  .OldForNew-Section1-bg2 {
+    display: block;
+  }
+  .OldForNew-Section1-bg1 {
+    display: none;
+  }
+  .OldForNew-Section1-imageSliderBanner {
+    width: 45vw;
+  }
+  .OldForNew-Section1-CardCombo {
+    width: 75vw;
+    margin: auto;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .OldForNew-Section1-ContainerBox {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+  }
+
+  .OldForNew-Section1-banner {
+    width: 95vw;
+    display: flex;
+    margin: 10px auto;
+  }
+  .OldForNew-Section1-CardCombo {
+    width: 95vw;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px;
+  }
+}

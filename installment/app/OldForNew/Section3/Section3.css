@@ -1,0 +1,127 @@
+.OldForNew-Section3-Container {
+  width: 65vw;
+  margin: auto;
+  padding: 10px 0px;
+  background-color: #ffff;
+}
+.OldForNew-Section3 {
+  background-color: #fffcee;
+}
+.title-loai-pk span {
+  background: #0f1630;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 80px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  color: #fff;
+}
+.title-loai-pk {
+  text-align: left;
+  margin: 0px 0px 20px 0px;
+}
+.OldForNew-Section3-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.OldForNew-Section3-tabItem {
+  border: 2px solid #f47700;
+  border-radius: 12px;
+  width: max-content;
+  padding: 2px 10px;
+  display: flex;
+  height: 37px;
+  text-align: center;
+}
+.OldForNew-Section3-tabItemText {
+  border: 2px solid #f47700;
+  border-radius: 12px;
+  width: max-content;
+  padding: 6px 10px;
+  display: flex;
+  height: 37px;
+  text-align: center;
+}
+.OldForNew-Section3-ItemSlider {
+  margin: auto;
+  align-items: center;
+}
+:where(.css-dev-only-do-not-override-qnu6hi).ant-carousel .slick-prev,
+:where(.css-dev-only-do-not-override-qnu6hi).ant-carousel .slick-next {
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  color: #503dff;
+
+  opacity: 0.4;
+  background: transparent;
+  padding: 0;
+  line-height: 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  z-index: 1;
+  transition: opacity 0.3s;
+}
+@media (max-width: 1440px) {
+  .OldForNew-Section3-Container {
+    width: 79vw;
+    margin: auto;
+  }
+  .OldForNew-Section3-tab {
+    gap: 6px;
+  }
+  .OldForNew-Section3-tabItemText {
+    padding: 6px 12px;
+    font-size: 13px;
+    width: 150px;
+  }
+}
+@media (max-width: 1000px) {
+  .OldForNew-Section3-Container {
+    width: 100vw;
+    margin: auto;
+  }
+  .OldForNew-Section3-tab {
+    gap: 6px;
+  }
+  .OldForNew-Section3-tabItemText {
+    padding: 6px 12px;
+    font-size: 13px;
+    width: 150px;
+  }
+}
+@media (max-width: 767px) {
+  .OldForNew-Section3-tabItemText {
+    padding: 6px 6px;
+    font-size: 13px;
+    width: 150px;
+  }
+  .title-loai-pk span {
+    font-size: 14px !important;
+  }
+  .OldForNew-Section3-tab {
+    width: 100%;
+    overflow-x: auto;
+    gap: 10px;
+    display: flex;
+    align-items: unset;
+    justify-content: unset;
+    margin: unset;
+  }
+  .OldForNew-Section3-tabItem {
+    margin: unset;
+    min-width: 120px;
+  }
+  .OldForNew-Section3-tabItemText {
+    margin: unset;
+    font-weight: 500;
+    min-width: 110px;
+  }
+}
