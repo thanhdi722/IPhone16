@@ -12,7 +12,7 @@ function NavBar() {
   return (
     <div
       className={style.navbar_container}
-      style={{ marginTop: "35px", backgroundColor: "#ffff" }}
+      style={{ backgroundColor: "#313131" }}
     >
       <div className={style.tabs_wrapper}>
         <button
@@ -20,6 +20,9 @@ function NavBar() {
             activeButton === 1 ? style.active : ""
           }`}
           onClick={() => handleButtonClick(1)}
+          style={{
+            backgroundColor: activeButton === 1 ? "white" : "black",
+          }}
         >
           Quà tặng
         </button>
@@ -28,6 +31,9 @@ function NavBar() {
             activeButton === 2 ? style.active : ""
           }`}
           onClick={() => handleButtonClick(2)}
+          style={{
+            backgroundColor: activeButton === 2 ? "white" : "black",
+          }}
         >
           Thu củ đổi mới
         </button>
@@ -36,6 +42,9 @@ function NavBar() {
             activeButton === 3 ? style.active : ""
           }`}
           onClick={() => handleButtonClick(3)}
+          style={{
+            backgroundColor: activeButton === 3 ? "white" : "black",
+          }}
         >
           Trả góp 0%
         </button>
@@ -44,6 +53,9 @@ function NavBar() {
             activeButton === 4 ? style.active : ""
           }`}
           onClick={() => handleButtonClick(4)}
+          style={{
+            backgroundColor: activeButton === 4 ? "white" : "black",
+          }}
         >
           Tiện ích
         </button>
@@ -52,6 +64,9 @@ function NavBar() {
             activeButton === 5 ? style.active : ""
           }`}
           onClick={() => handleButtonClick(5)}
+          style={{
+            backgroundColor: activeButton === 5 ? "white" : "black",
+          }}
         >
           Lỗi đổi mới
         </button>
@@ -60,6 +75,9 @@ function NavBar() {
             activeButton === 6 ? style.active : ""
           }`}
           onClick={() => handleButtonClick(6)}
+          style={{
+            backgroundColor: activeButton === 6 ? "white" : "black",
+          }}
         >
           Hệ sinh thái Apple
         </button>
