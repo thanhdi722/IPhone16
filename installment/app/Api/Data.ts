@@ -6,7 +6,6 @@ import Iphone16ProMax from "@/app/Images/iPhone_16_Pro_Desert_Titanium_Pure_Back
 import ProductEcosystem from "@/app/Images/Multi-Product_Apple_Watch_Series_10.png";
 import Apple_Watch_Ultra_2 from "@/app/Images/Apple_Watch_Ultra.png";
 import AirPods_Max from "@/app/Images/AirPods_Max_2024_Orange_PDP_Image.png";
-import Apple_Watch_SE from "@/app/Images/Apple_Watch_SE.png";
 import AirPods_4 from "@/app/Images/AirPods_4.png";
 interface ProductsIP16 {
   id: number;
@@ -358,7 +357,7 @@ export const ecosystemApple: ProductsEcosystemApple[] = [
   },
   {
     link: "https://cellphones.com.vn/iphone-16-pro-max-512gb.html",
-    imageUrl: Apple_Watch_SE.src,
+    imageUrl: AirPods_4.src,
     title: "iPhone 16 Pro Max 512GB | Chính hãng VN/A",
     listedPrice: "40.990.000đ",
     tradeInDiscount: "2.000.000đ",
