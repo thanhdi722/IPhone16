@@ -33,13 +33,7 @@ const Banner: React.FC = () => {
         <a className={style.btn_open_modal} onClick={handleClick}></a>
         <button className={style.btn_scroll} onClick={handleClick1}></button>
       </div>
-      <div>
-        <div
-          id="navigationBar"
-          className="bannerTopHead"
-          style={{ height: "50px", backgroundColor: "#313131" }}
-        ></div>
-      </div>
+      <div></div>
     </div>
   );
 };
