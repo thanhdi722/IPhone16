@@ -31,24 +31,6 @@ const Banner: React.FC = () => {
         <a className={style.btn_open_modal} onClick={handleClick}></a>
         <button className={style.btn_scroll} onClick={handleClick1}></button>
       </div>
-      <div>
-        <div
-          id="navigationBar"
-          className="bannerTopHead"
-          style={{ height: "50px", backgroundColor: "#313131" }}
-        >
-          {/* className="cps-container is-flex is-justify-content-space-between is-align-items-center" */}
-          <div className={style.cps_container}>
-            <div className="navigation-brand"></div>
-            <div className="navigation-wrapper">
-              <a className="navigation-item active">ƯU ĐÃI</a>
-              <a className="navigation-item">THU CŨ</a>
-              <a className="navigation-item">TÍNH NĂNG</a>
-              <a className="navigation-item">ĐĂNG KÝ NGAY</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
