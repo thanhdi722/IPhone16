@@ -40,7 +40,7 @@ function NavBar() {
             backgroundColor: activeButton === 2 ? "white" : "black",
           }}
         >
-          Thu củ đổi mới
+          Thu cũ đổi mới
         </button>
         <button
           className={`${style.tab_item} ${style.button} ${
