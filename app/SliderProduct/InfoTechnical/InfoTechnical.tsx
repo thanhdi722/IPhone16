@@ -33,7 +33,7 @@ export default function InfoTechnical() {
       },
       images: {
         "Titan Đen": iphone16Black,
-        "Title Sa Mạc": iphone16Desert,
+        "Titan Sa Mạc": iphone16Desert,
         "Titan Tự Nhiên": iphone16Titan,
         "Titan Trắng": iphone16White,
       },
