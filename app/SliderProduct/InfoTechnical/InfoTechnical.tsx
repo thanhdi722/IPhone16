@@ -9,7 +9,7 @@ import iphone16Blue from "@/app/Images/iphone16_blue.png";
 import iphone16Titan from "@/app/Images/iphone16_titan.png";
 import iphone16Desert from "@/app/Images/iphone16_desert.png";
 import Image from "next/image";
-import bang_gia from "@/app/images/bang-gia.png";
+import bang_gia from "@/app/images/bang_gia.png";
 import { StaticImageData } from "next/image";
 import { Carousel } from "antd";
 type ProductImage = { [key: string]: StaticImageData };
