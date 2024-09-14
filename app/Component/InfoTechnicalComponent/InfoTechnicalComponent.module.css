@@ -1,0 +1,118 @@
+.itemProduct {
+  color: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 12px 40px;
+  padding: 0 0 12px;
+  text-align: center;
+  vertical-align: top;
+  /* width: calc(25% - 24px); */
+}
+.wrapImg {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.wrapImg img {
+  background: none;
+  display: inline;
+  height: auto;
+  opacity: 1 !important;
+  width: 150px;
+  height: 180px;
+}
+.productName {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-size: 22px;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 120%;
+  margin: 0 auto 20px;
+  padding: 0;
+  text-align: center;
+}
+.productPrice {
+  align-items: baseline;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  line-height: 1;
+  margin: 0 auto 20px;
+  width: -moz-max-content;
+  width: max-content;
+}
+.productPrice span {
+  font-size: 18px;
+  font-weight: 400;
+  padding-right: 10px;
+}
+.productPrice b {
+  font-size: 28px;
+  font-weight: 700;
+}
+.listCapacity {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin: 0 auto 20px;
+  position: relative;
+}
+.listCapacity div {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  padding: 5px 12px;
+  position: relative;
+  vertical-align: middle;
+}
+.listColorProduct {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  position: relative;
+  width: 100%;
+}
+
+.listColorProduct div {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  box-sizing: content-box;
+  cursor: pointer;
+  display: inline-block;
+  height: 28px;
+  margin-top: 0;
+  padding: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 28px;
+  position: relative;
+}
+.groupButtonMobile {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.content {
+  margin-bottom: 10px;
+}
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

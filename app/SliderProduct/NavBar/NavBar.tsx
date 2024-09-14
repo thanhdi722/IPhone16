@@ -12,7 +12,12 @@ function NavBar() {
   return (
     <div
       className={style.navbar_container}
-      style={{ backgroundColor: "#313131" }}
+      style={{
+        backgroundColor: "#000",
+        position: "sticky",
+        top: 0,
+        zIndex: 999,
+      }}
     >
       <div className={style.tabs_wrapper}>
         <button

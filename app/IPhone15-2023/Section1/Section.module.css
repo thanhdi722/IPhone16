@@ -1,0 +1,14 @@
+.bannerPC {
+  display: block;
+}
+.bannerMB {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .bannerPC {
+    display: none;
+  }
+  .bannerMB {
+    display: block;
+  }
+}
