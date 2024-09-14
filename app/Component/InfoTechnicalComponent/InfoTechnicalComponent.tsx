@@ -45,7 +45,11 @@ export default function InfoTechnicalComponent({
             <div
               key={color.name}
               title={color.name}
-              className={color.name === activeColor ? style.active : ""}
+              className={`${
+                color.name === activeColor
+                  ? `${style.active} ${style.selected}`
+                  : ""
+              }`}
               style={{ backgroundColor: color.colorCode }}
               onClick={() => setActiveColor(color.name)}
             ></div>
