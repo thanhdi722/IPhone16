@@ -40,7 +40,7 @@ export default function InfoTechnical() {
       capacities: ["1TB", "512GB", "256GB"],
       colors: [
         { name: "Titan Đen", colorCode: "rgb(60, 64, 66)" },
-        { name: "Title Sa Mạc", colorCode: "rgb(255, 218, 185)" },
+        { name: "Titan Sa Mạc", colorCode: "rgb(255, 218, 185)" },
         { name: "Titan Tự Nhiên", colorCode: "rgb(250, 235, 215)" },
         { name: "Titan Trắng", colorCode: "rgb(251, 247, 244)" },
       ],
