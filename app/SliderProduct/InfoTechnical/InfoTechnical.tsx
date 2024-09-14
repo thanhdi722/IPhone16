@@ -32,17 +32,17 @@ export default function InfoTechnical() {
         "256GB": "34.190.000₫",
       },
       images: {
-        Đen: iphone16Black,
-        Desert: iphone16Desert,
-        Titan: iphone16Titan,
-        Trắng: iphone16White,
+        "Titan Đen": iphone16Black,
+        "Title Sa Mạc": iphone16Desert,
+        "Titan Tự Nhiên": iphone16Titan,
+        "Titan Trắng": iphone16White,
       },
       capacities: ["1TB", "512GB", "256GB"],
       colors: [
-        { name: "Màu Đen", colorCode: "rgb(60, 64, 66)" },
-        { name: "Màu Desert", colorCode: "rgb(255, 218, 185)" },
-        { name: "Màu Titan", colorCode: "rgb(250, 235, 215)" },
-        { name: "Màu Trắng", colorCode: "rgb(251, 247, 244)" },
+        { name: "Titan Đen", colorCode: "rgb(60, 64, 66)" },
+        { name: "Title Sa Mạc", colorCode: "rgb(255, 218, 185)" },
+        { name: "Titan Tự Nhiên", colorCode: "rgb(250, 235, 215)" },
+        { name: "Titan Trắng", colorCode: "rgb(251, 247, 244)" },
       ],
       productLink:
         "/dtdd/iphone-16-pro-max?m=2&amp;gid=1&amp;pId=329136&amp;strcode=0131491004227",
@@ -56,17 +56,17 @@ export default function InfoTechnical() {
         "128GB": "27.690.000₫",
       },
       images: {
-        Đen: iphone16Black,
-        Desert: iphone16Desert,
-        Titan: iphone16Titan,
-        Trắng: iphone16White,
+        "Titan Đen": iphone16Black,
+        "Titan Sa Mạc": iphone16Desert,
+        "Titan Tự Nhiên": iphone16Titan,
+        "Titan Trắng": iphone16White,
       },
       capacities: ["1TB", "512GB", "256GB", "128GB"],
       colors: [
-        { name: "Màu Đen", colorCode: "rgb(60, 64, 66)" },
-        { name: "Màu Desert", colorCode: "rgb(255, 218, 185)" },
-        { name: "Màu Titan", colorCode: "rgb(250, 235, 215)" },
-        { name: "Màu Trắng", colorCode: "rgb(251, 247, 244)" },
+        { name: "Titan Đen", colorCode: "rgb(60, 64, 66)" },
+        { name: "Titan Sa Mạc", colorCode: "rgb(255, 218, 185)" },
+        { name: "Titan Tự Nhiên", colorCode: "rgb(250, 235, 215)" },
+        { name: "Titan Trắng", colorCode: "rgb(251, 247, 244)" },
       ],
       productLink:
         "/dtdd/iphone-16-pro-max?m=2&amp;gid=1&amp;pId=329136&amp;strcode=0131491004227",
@@ -83,15 +83,15 @@ export default function InfoTechnical() {
         Trắng: iphone16White,
         "Xanh Mòng Két": iphone16Green,
         Hồng: iphone16Pink,
-        Blue: iphone16Blue,
+        "Xanh Lưu Ly": iphone16Blue,
       },
       capacities: ["512GB", "256GB", "128GB"],
       colors: [
-        { name: "Màu Đen", colorCode: "rgb(60, 64, 66)" },
-        { name: "Màu Trắng", colorCode: "rgb(251, 247, 244)" },
-        { name: "Màu Xanh Mòng Két", colorCode: "rgb(176, 212, 210)" },
-        { name: "Màu Hồng", colorCode: "rgb(255, 110, 180)" },
-        { name: "Màu Blue", colorCode: "rgb(72, 118, 255)" },
+        { name: "Đen", colorCode: "rgb(60, 64, 66)" },
+        { name: "Trắng", colorCode: "rgb(251, 247, 244)" },
+        { name: "Xanh Mòng Két", colorCode: "rgb(176, 212, 210)" },
+        { name: "Hồng", colorCode: "rgb(255, 110, 180)" },
+        { name: "Xanh Lưu Ly", colorCode: "rgb(72, 118, 255)" },
       ],
       productLink:
         "/dtdd/iphone-16-pro-max?m=2&amp;gid=1&amp;pId=329136&amp;strcode=0131491004227",
@@ -108,15 +108,15 @@ export default function InfoTechnical() {
         Trắng: iphone16White,
         "Xanh Mòng Két": iphone16Green,
         Hồng: iphone16Pink,
-        Blue: iphone16Blue,
+        "Xanh Lưu Ly": iphone16Blue,
       },
       capacities: ["512GB", "256GB", "128GB"],
       colors: [
-        { name: "Màu Đen", colorCode: "rgb(60, 64, 66)" },
-        { name: "Màu Trắng", colorCode: "rgb(251, 247, 244)" },
-        { name: "Màu Xanh Mòng Két", colorCode: "rgb(176, 212, 210)" },
-        { name: "Màu Hồng", colorCode: "rgb(255, 110, 180)" },
-        { name: "Màu Blue", colorCode: "rgb(72, 118, 255)" },
+        { name: "Đen", colorCode: "rgb(60, 64, 66)" },
+        { name: "Trắng", colorCode: "rgb(251, 247, 244)" },
+        { name: "Xanh Mòng Két", colorCode: "rgb(176, 212, 210)" },
+        { name: "Hồng", colorCode: "rgb(255, 110, 180)" },
+        { name: "Xanh Lưu Ly", colorCode: "rgb(72, 118, 255)" },
       ],
       productLink:
         "/dtdd/iphone-16-pro-max?m=2&amp;gid=1&amp;pId=329136&amp;strcode=0131491004227",
@@ -130,7 +130,7 @@ export default function InfoTechnical() {
   };
   return (
     <div className={style.infoTechnical}>
-      <h4 className={style.title}>Bảng Giá Iphone 16 Series Chính Hãng VN/A</h4>
+      <h4 className={style.title}>Bảng Giá iPhone 16 Series Chính Hãng VN/A</h4>
       <div className={style.productList}>
         {products.map((product, index) => (
           <div key={index} className={style.productItem}>

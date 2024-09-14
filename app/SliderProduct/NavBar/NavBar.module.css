@@ -56,9 +56,6 @@
   .carousel_wrapper {
     width: 100vw;
   }
-  .navbar_container {
-    /* margin-top: 30px; */
-  }
 }
 @media (max-width: 767px) {
   .tab_item {
