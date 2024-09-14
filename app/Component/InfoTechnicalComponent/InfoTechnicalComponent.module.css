@@ -43,7 +43,7 @@
   font-weight: 700;
   line-height: 30px;
   line-height: 1;
-  margin: 0 auto 20px;
+  margin: 0 auto 0px;
   width: -moz-max-content;
   width: max-content;
 }
@@ -60,9 +60,9 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 8px;
   justify-content: center;
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
   position: relative;
 }
 .listCapacity div {
@@ -74,7 +74,7 @@
   font-size: 10px;
   font-weight: 700;
   margin-bottom: 4px;
-  padding: 5px 12px;
+  padding: 5px 8px;
   position: relative;
   vertical-align: middle;
 }
@@ -82,10 +82,10 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
   justify-content: center;
   margin: 0 auto;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   position: relative;
   width: 100%;
 }
@@ -115,4 +115,51 @@
 .disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+.button_buy {
+  background-color: red;
+  padding: 6px;
+  width: 50%;
+  border-radius: 10px;
+  margin: auto;
+  color: #fff;
+  font-weight: 500;
+}
+.button_buy:hover {
+  background-color: rgb(250, 96, 96);
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .listColorProduct div {
+    height: 15px;
+    width: 15px;
+  }
+  .wrapImg img {
+    width: 100px;
+    height: 130px;
+  }
+  .productName {
+    font-size: 16px;
+    margin: 0 auto 6px;
+  }
+  .productPrice span {
+    font-size: 16px;
+  }
+
+  .productPrice {
+    margin: 0 auto 10px;
+  }
+  .productPrice b {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .listColorProduct {
+    gap: 6px;
+  }
+  .groupButtonMobile {
+    margin-top: 0px;
+  }
+  .listCapacity {
+    height: 70px;
+  }
 }

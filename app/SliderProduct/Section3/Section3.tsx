@@ -18,21 +18,21 @@ function Section3() {
             className={`${style.tab_item} ${style.button}`}
             onClick={() => handleButtonClick(1)}
             style={{
-              backgroundColor: activeButton === 1 ? "black" : "white",
-              color: activeButton === 1 ? "white" : "black",
+              backgroundColor: activeButton === 1 ? "White" : "black",
+              color: activeButton === 1 ? "black" : "white",
             }}
           >
-            iPhone 16
+            iPhone 16 Pro
           </button>
           <button
             className={`${style.tab_item} ${style.button}`}
             onClick={() => handleButtonClick(2)}
             style={{
-              backgroundColor: activeButton === 2 ? "black" : "white",
-              color: activeButton === 2 ? "white" : "black",
+              backgroundColor: activeButton === 2 ? "white" : "black",
+              color: activeButton === 2 ? "black" : "white",
             }}
           >
-            iPhone 16 Pro
+            iPhone 16
           </button>
         </div>
         {activeButton === 1 && (
