@@ -24,7 +24,7 @@ function NavBar() {
             backgroundColor: activeButton === 1 ? "white" : "black",
           }}
         >
-          Quà tặng
+          <a href="#box-gif">Quà tặng Bạch Long</a>
         </button>
         <button
           className={`${style.tab_item} ${style.button} ${
@@ -46,7 +46,7 @@ function NavBar() {
             backgroundColor: activeButton === 3 ? "white" : "black",
           }}
         >
-          Trả góp 0%
+          Trả góp 0% lãi suất
         </button>
         <button
           className={`${style.tab_item} ${style.button} ${
@@ -57,7 +57,7 @@ function NavBar() {
             backgroundColor: activeButton === 4 ? "white" : "black",
           }}
         >
-          Tiện ích
+          16 Tiện ích ưu đãi
         </button>
         <button
           className={`${style.tab_item} ${style.button} ${
@@ -68,7 +68,7 @@ function NavBar() {
             backgroundColor: activeButton === 5 ? "white" : "black",
           }}
         >
-          Lỗi đổi mới
+          60 Ngày LỖI ĐỔI &quot;MỚI&quot;
         </button>
         <button
           className={`${style.tab_item} ${style.button} ${
@@ -79,7 +79,7 @@ function NavBar() {
             backgroundColor: activeButton === 6 ? "white" : "black",
           }}
         >
-          Hệ sinh thái Apple
+          Hệ sinh thái APPLE
         </button>
       </div>
     </div>

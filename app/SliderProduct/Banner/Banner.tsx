@@ -5,14 +5,14 @@ import React from "react";
 import banner from "@/app/Images/HeaderLP-Desktop-ROI-1920x600.png";
 import bannerMB from "@/app/Images/Banner-MB.png";
 import Image from "next/image";
-import { message } from "antd";
+// import { message } from "antd";
 const Banner: React.FC = () => {
-  const handleClick = () => {
-    message.info("Hi");
-  };
-  const handleClick1 = () => {
-    message.info("Ha");
-  };
+  // const handleClick = () => {
+  //   message.info("Hi");
+  // };
+  // const handleClick1 = () => {
+  //   message.info("Ha");
+  // };
   return (
     <div>
       <Image
@@ -27,10 +27,10 @@ const Banner: React.FC = () => {
         layout="responsive"
         className={style.bannerMB}
       />
-      <div className={style.group_btn} style={{ zIndex: 99 }}>
+      {/* <div className={style.group_btn} style={{ zIndex: 99 }}>
         <a className={style.btn_open_modal} onClick={handleClick}></a>
         <button className={style.btn_scroll} onClick={handleClick1}></button>
-      </div>
+      </div> */}
     </div>
   );
 };
